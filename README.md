@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -38,3 +39,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 =======
 # TWM
 >>>>>>> 0602e7d81f7a8020565c9b1fa55486e1d020187c
+=======
+# twmProject
+>>>>>>> 326ff870167ae75492c11324873e853112a31f69
