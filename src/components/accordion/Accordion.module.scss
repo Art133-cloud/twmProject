@@ -110,6 +110,7 @@
 @media only screen and (max-width:1158px) {
     .accordionContainer {
         max-width: 80%;
+        margin: 0 auto;
     }
     .content p {
         font-size: 15px;
@@ -118,11 +119,33 @@
     .headAccordion h4 {
         font-size: 20px;
     }
+    .icon {
+        left: 92%;
+        top: 0px;
+    }
+}
+@media only screen and (max-width:860px) {
+    .content p {
+        font-size: 13px;
+    }
+    .icon {
+        left: 90%;
+        top: 0px;
+    }
+    .headAccordion h4 {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:716px) {
+    .headAccordion h4 {
+        font-size: 14px;
+    }
+    .icon {
+        left: 87%;
+        top: 0px;
+    }
 }
 @media only screen and (max-width:596px) {
-    .accordionContainer {
-        max-width: 70%;
-    }
     .content p {
         font-size: 14px;
         padding-bottom: 20px;
@@ -148,9 +171,34 @@
 @media only screen and (max-width:440px) {
     .headAccordion h4 {
         text-align: start;
+        width: 200px;
     }
     .accordionContainer {
-        max-width: 60%;
+        max-width: 80%;
     }
-
+    .icon {
+        width: 33px;
+        height: 33px;
+    }
+    .greenIcon svg,.headPhone svg {
+        width: 20px;
+        height: 20px;
+    }
+    .userIcon{
+        flex-direction: column;
+        row-gap: 1px;
+    }
+    .userIcon svg:first-child {
+        width:6px;
+        height:6px;
+    }
+    .userIcon svg:last-child {
+        width:15px;
+        height:5px;
+    }
+}
+@media only screen and (max-width:350px) {
+    .headAccordion h4 {
+        width: 150px;
+    }
 }

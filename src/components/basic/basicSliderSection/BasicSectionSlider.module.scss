@@ -12,6 +12,9 @@
             font-size: 48px;
             color: #2c2c2c;
         }
+        .withWidth {
+          width: 301px;
+        }
         span {
             font-weight: 900;
             background: linear-gradient(180deg, #0574e5 0%, #021c7a 100%);
@@ -40,6 +43,28 @@
       align-items: center;
       .textUnder {
         padding: 40px 0;
+      }
+      .withWidth {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 547px) {
+  .contentSectionSlider {
+    .texts {
+      h2{
+        font-size: 30px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 343px) {
+  .contentSectionSlider {
+    .texts {
+      h2{
+        font-size: 25px;
       }
     }
   }

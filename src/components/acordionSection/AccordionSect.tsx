@@ -1,10 +1,10 @@
+import Accordion from "../accordion/Accordion";
 import styles from "./AccordionSect.module.scss";
 import Container from "../basic/container/Container";
 import EgyptAccordion from "../../../public/assets/png/EgyptAccordion.png";
-import DotsAccrodion from "../../../public/assets/svg/DotsAccordion";
+import DotsAccordion from "../../../public/assets/svg/DotsAccordion";
 import CircleAccordion from "../../../public/assets/svg/CircleAccordion";
 import Image from "next/image";
-import Accordion from "../accordion/Accordion";
 export default function AccordionSect() {
   return (
     <div className={styles.accordionSect}>
@@ -13,12 +13,12 @@ export default function AccordionSect() {
           <div className={styles.leftAccordionSect}>
             <Image
               className={styles.egyptImg}
-              src={EgyptAccordion.src}
+              src={EgyptAccordion}
               alt="Egypt"
               width={609}
               height={746}
             />
-            <DotsAccrodion className={styles.dotsAccordion} />
+            <DotsAccordion className={styles.dotsAccordion} />
             <div className={styles.yellowBlock}></div>
             <CircleAccordion className={styles.circleAccordion} />
             <div className={styles.blueBlur}></div>
@@ -26,6 +26,7 @@ export default function AccordionSect() {
           </div>
 
           <div className={styles.rightAccordionSect}>
+              
             <h2>Our advantages</h2>
             <Accordion />
           </div>
