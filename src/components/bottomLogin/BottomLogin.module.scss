@@ -1,0 +1,11 @@
+.parentBottomLogin {
+    margin: 0 auto;
+}
+.contentBottomLogin {
+    .loginImg {
+        img {
+            position: absolute;
+            transform: translate(-180px, 240px);
+        }
+    }
+}
